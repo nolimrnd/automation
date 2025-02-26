@@ -35,31 +35,31 @@
           - no auto-reg-ephone
           - max-ephones 5
           - max-dn 20
-          - ip source-address 10._.100.8 port 2000
+          - ip source-address 10.42.100.8 port 2000
           - create cnf-files
           - ephone-dn 1
-          - number _11
+          - number 4211
           - ephone-dn 2
-          - number _22
+          - number 4222
           - ephone-dn 3
-          - number _33
+          - number 4233
           - ephone-dn 4
-          - number _44
+          - number 4244
           - ephone-dn 5
-          - number _55
+          - number 4255
           - ephone-dn 6
-          - number _66
+          - number 4266
           - ephone-dn 7
-          - number _77
+          - number 4277
           - ephone-dn 8
-          - number _88
+          - number 4288
           - ephone 1
-          - Mac-address ___.____.___
+          - Mac-address ccd8.c1fb.02b7
           - type 8945
           - button 1:1 2:3 3:2 4:4
           - restart
           - ephone 2
-          - Mac-address ____.____.____
+          - Mac-address 20bb.c0df.d297
           - type 8945
           - button 1:5 2:6 3:7 4:8
           - restart
@@ -93,8 +93,8 @@
         commands:
           - configure terminal
           - router ospf 1
-          - router-id 10._.100.8
-          - network 10._.100.0 0.0.0.255 area 0
+          - router-id 10.42.100.8
+          - network 10.42.100.0 0.0.0.255 area 0
           - end
       vars:
         ansible_network_os: ios
