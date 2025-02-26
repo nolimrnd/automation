@@ -42,10 +42,10 @@
           - destination-pattern 41..
           - session target ipv4:10.41.100.8
           - codec g711ULAW
-          - dial-peer voice 42 Voip
-          - destination-pattern 42..
-          - session target ipv4:10.42.100.8
-          - codec g711ULAW
+          #- dial-peer voice 42 Voip
+          #- destination-pattern 42..
+          #- session target ipv4:10.42.100.8
+          #- codec g711ULAW
           - dial-peer voice 51 Voip
           - destination-pattern 51..
           - session target ipv4:10.51.100.8
