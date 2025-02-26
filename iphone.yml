@@ -10,16 +10,16 @@
         commands:
           - configure terminal
           - dial-peer voice 1 pots
-          - destination-pattern _00
+          - destination-pattern 4200
           - port 0/0/0
           - dial-peer voice 2 pots
-          - destination-pattern _01
+          - destination-pattern 4201
           - port 0/0/1
           - dial-peer voice 3 pots
-          - destination-pattern _02
+          - destination-pattern 4202
           - port 0/0/2
           - dial-peer voice 4 pots
-          - destination-pattern _03
+          - destination-pattern 4203
           - port 0/0/3
           - end
       vars:
