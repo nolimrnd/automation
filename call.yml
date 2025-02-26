@@ -14,10 +14,10 @@
           - ipv4 0.0.0.0 0.0.0.0
           - end
           - configure terminal
-          #- dial-peer voice 11 Voip
-          #- destination-pattern 11..
-          #- session target ipv4:10.11.100.8
-          #- codec g711ULAW
+          - dial-peer voice 11 Voip
+          - destination-pattern 11..
+          - session target ipv4:10.11.100.8
+          - codec g711ULAW
           - dial-peer voice 12 Voip
           - destination-pattern 12..
           - session target ipv4:10.12.100.8
@@ -42,10 +42,10 @@
           - destination-pattern 41..
           - session target ipv4:10.41.100.8
           - codec g711ULAW
-          - dial-peer voice 42 Voip
-          - destination-pattern 42..
-          - session target ipv4:10.42.100.8
-          - codec g711ULAW
+          #- dial-peer voice 42 Voip
+          #- destination-pattern 42..
+          #- session target ipv4:10.42.100.8
+          #- codec g711ULAW
           - dial-peer voice 51 Voip
           - destination-pattern 51..
           - session target ipv4:10.51.100.8
